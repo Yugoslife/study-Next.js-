@@ -10,10 +10,10 @@ function Task8() {
     const [result, setResult] = useState(null);
     const [showAlgorithm, setShowAlgorithm] = useState(false);
 
-    function removeElement(arr, elem) {
-        const filteredArray = arr.filter(element => element !== elem);
-        setResult(filteredArray);
-        setShowAlgorithm(true);
+    function sumArray(arr) {
+        let arr = [1, 2, 3, 4, 5];
+        for (let i = 0; i < arr.length; i++);
+        return
     }
 
 
